@@ -13,7 +13,7 @@ Currently working on:
 
 ### ⚡ ConvertHub v2
 
-A high-performance, offline-first desktop file converter and visual PDF workspace with a modern glassmorphism UI and parallel processing queues. Powered entirely locally by **FFmpeg**, **LibreOffice**, and **7-Zip**.
+A high-performance, offline-first desktop file converter, visual PDF workspace, and advanced image editor with a modern glassmorphism UI and parallel processing queues. Powered entirely locally by **FFmpeg**, **LibreOffice**, **7-Zip**, and **Sharp**.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PRIYANSHVERMA-droid/ConvertHub-v2/main/assets/screenshots/UI%20Dark.png" width="850" alt="ConvertHub v2 Preview">
@@ -26,13 +26,20 @@ A high-performance, offline-first desktop file converter and visual PDF workspac
 - 📄 **Document Suite:** Sandboxed offline document conversions powered by LibreOffice.
 - 📦 **Archive Control:** Create high-efficiency compressed packages (`ZIP` & `7Z`) via 7-Zip.
 
+#### 🎨 Smart Image Toolkit
+- 📐 **Resize & Crop Studio:** Scale using aspect-ratio presets (Full HD, HD, Instagram, YouTube) or custom bounds with advanced fit modes (`cover`, `contain` with color fill, `fill`).
+- 🔄 **Transforms & Rotation:** Spin images in 90° increments or flip horizontally and vertically.
+- 📉 **Optimized Compression:** Re-encode images to `JPEG`, `PNG`, `WebP`, or `AVIF` formats with real-time file-size savings estimation.
+- ✍️ **Visual Watermarker:** Overlay image logos or custom text with full styling attributes (custom color picker, opacity, rotation, and gravity/tiling layouts).
+- 🖼 **Live Canvas Preview:** Interactively view edits side-by-side or live on an HTML5 canvas before running any backend processes.
+
 #### 📐 Smart PDF Toolkit
 - ✂️ **Visual Organizer:** Drag, rotate, delete, or reorganize PDF pages in an interactive workspace.
 - 🖼 **Image Compiler:** Package custom image lists into a single PDF with layouts and encryption.
 - 🔗 **PDF Merger:** Combine multiple PDF documents or target specific page ranges.
 - 📉 **Smart Compression:** Reduce file size using lossless Flate or lossy DPI re-encoding.
 - ✍️ **Custom Watermarker:** Brand documents with text, placement, opacity, and rotation.
-- 📂 **Export Options:** Extract specific pages or compile pages directly into an image ZIP archive.
+- 📂 **Visual Page Selection:** Extract specific pages using thumbnail checkbox grids synced dynamically with manual page range inputs.
 
 #### 💎 Key Highlights:
 - ⚡ **100% Offline & Private:** Zero cloud dependencies, keeping files completely secure.
@@ -54,7 +61,7 @@ A high-performance, offline-first desktop file converter and visual PDF workspac
 ## 🛠 Tech Stack
 
 - **Languages:** JavaScript, Node.js, C++, Python, HTML/CSS
-- **Frameworks & Engines:** Electron, FFmpeg, LibreOffice, 7-Zip, pdf-lib, pdfjs-dist
+- **Frameworks & Engines:** Electron, FFmpeg, LibreOffice, 7-Zip, Sharp, pdf-lib, pdfjs-dist
 - **Focus Areas:** Desktop Shell Engineering, IPC Architecture, Multi-threaded Queues
 
 ---
@@ -62,14 +69,12 @@ A high-performance, offline-first desktop file converter and visual PDF workspac
 ## 📈 GitHub Stats
 
 <!-- OPTION A: Ultra-Reliable Static Badges (100% Uptime Guarantee) -->
-<!-- These badges fetch statistics natively using GitHub's servers and never go offline -->
 <p align="center">
   <img src="https://img.shields.io/github/followers/PRIYANSHVERMA-droid?style=for-the-badge&logo=github&color=0078d7" alt="Followers">
   <img src="https://img.shields.io/github/stars/PRIYANSHVERMA-droid/ConvertHub-v2?style=for-the-badge&logo=github&color=emerald" alt="ConvertHub v2 Stars">
 </p>
 
-<!-- OPTION B: Dynamic Stats (Fallback if the default server is throttled) -->
-<!-- You can also display your active coding streak card, which has dedicated high-speed servers -->
+<!-- OPTION B: Dynamic Stats -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PRIYANSHVERMA-droid&theme=tokyonight" alt="GitHub Streak Stats">
 </p>
