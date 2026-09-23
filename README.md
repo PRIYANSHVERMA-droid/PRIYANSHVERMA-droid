@@ -1,162 +1,230 @@
-# Hi 👋 I'm Priyansh Verma
+<div align="center">
 
-💻 Computer Science student who enjoys building software by turning ideas into working products.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=6,11,20,29&text=Priyansh%20Verma&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Building%20%7C%20Breaking%20%7C%20Understanding&descSize=18&descAlignY=58&textBg=false" width="100%"/>
 
-I'm currently exploring:
-- 🖥️ Desktop application development with Electron
-- ⚙️ Offline-first utilities and local file processing
-- 🤖 AI-assisted software and practical automation
-- 🌐 Python and modern web development
-- 🎨 Clean and practical user interfaces
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=6EE7FF&center=true&vCenter=true&width=650&lines=Computer+Science+Student;Desktop+App+%26+AI+Developer;I+turn+%22it+doesn%27t+work%22+into+%22it+works%22;Currently+debugging+something%2C+probably" alt="Typing SVG" />
 
-I learn primarily by building, testing, debugging, and improving projects.
+<br/>
 
----
-
-## 🚀 Featured Project
-
-### ⚡ ConvertHub v2
-
-**ConvertHub v2** is an offline-first desktop application that combines a universal file converter, PDF workspace, and image editing toolkit into a single interface.
-
-The application is designed around **local processing**, so users can work with their files without relying on cloud services.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PRIYANSHVERMA-droid/ConvertHub-v2/main/assets/screenshots/UI%20Dark.png" width="850" alt="ConvertHub v2 Preview">
-</p>
-
-### 🔀 Universal File Converter
-
-- 🎵 **Audio:** Convert between `MP3`, `WAV`, `AAC`, and `FLAC`
-- 🎬 **Video:** Convert `MP4`, `MKV`, `MOV`, and `AVI`
-- 🖼️ **Images:** Convert between `JPG`, `PNG`, and `WEBP`
-- 📄 **Documents:** Local document conversion using LibreOffice
-- 📦 **Archives:** Create `ZIP` and `7Z` archives using 7-Zip
-
-### 🎨 Image Toolkit
-
-- 📐 Resize and crop images with presets or custom dimensions
-- 🔄 Rotate and flip images
-- 📉 Compress and convert images to `JPEG`, `PNG`, `WebP`, and `AVIF`
-- ✍️ Add text and image watermarks
-- 🖼️ Preview edits through an interactive canvas
-
-### 📐 PDF Toolkit
-
-- ✂️ Reorder, rotate, delete, and organize PDF pages
-- 🔗 Merge multiple PDF files
-- 🖼️ Create PDFs from images
-- 📉 Compress PDF documents
-- ✍️ Add text watermarks
-- 📂 Select and extract specific pages
-
-### 💡 Highlights
-
-- 🔒 **Offline-first:** Files are processed locally
-- ⚡ **Batch processing:** Process multiple files through a queue
-- 🖥️ **Hardware acceleration:** Supports available hardware encoders such as NVENC/QSV
-- 🌙 **Dark & Light themes:** Modern desktop interface
-- 📦 **Bundled tools:** Includes the required processing engines for easier setup
-
-🔗 **Repository:**  
-https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2
-
-<p align="center">
-  <a href="https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases">
-    <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=github" alt="Download Latest Release">
+<p>
+  <a href="https://github.com/PRIYANSHVERMA-droid">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/priyansh-verma-82a207372">
+    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://priyansh-verma.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="mailto:priyanshverma380@gmail.com">
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
----
+<img src="https://komarev.com/ghpvc/?username=PRIYANSHVERMA-droid&style=for-the-badge&color=6EE7FF&label=PROFILE+VIEWS" />
 
-## 🛠️ Tech Stack
+</div>
 
-### Languages
-- JavaScript
-- Python
-- HTML / CSS
-- Node.js
+<br/>
 
-### Frameworks & Libraries
-- Electron
-- FFmpeg
-- Sharp
-- pdf-lib
-- pdfjs-dist
-- LibreOffice
-- 7-Zip
+## 🧬 whoami
 
-### Development
-- Git
-- GitHub
-- VS Code
+```python
+class PriyanshVerma:
+    def __init__(self):
+        self.role       = "CS Student"
+        self.focus      = ["Desktop Apps", "Offline-first tools", "AI-assisted software"]
+        self.philosophy = "Learn by building. Improve by understanding."
+        self.status     = "🟢 shipping something, always"
 
-### Areas I'm Exploring
-- Desktop application development
-- IPC and multi-process architecture
-- Local file processing
-- AI-assisted applications
-- Automation and developer tooling
+    def debug(self, problem):
+        while not solved:
+            read_docs()
+            break_things()
+            fix_things()
+            learn_something()
+        return "it works now 🎉"
+```
 
----
+<br/>
 
-## 🧪 Other Work
+## ⚡ The Build Log
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🖥️ ConvertHub v2
+**Offline-first desktop conversion suite** — an entire media & document toolkit that never touches the cloud.
+
+Built on Electron, it fuses audio/video conversion, image tooling, PDF utilities, archiving, and batch queues into one native-feeling app.
+
+`🎵` MP3 · WAV · AAC · FLAC
+`🎬` MP4 · MKV · MOV · AVI (hardware-accelerated)
+`🖼️` Resize · Compress · Watermark
+`📄` Merge · Split · Extract PDFs
+`📦` ZIP / 7Z archiving
+`⚡` Batch queues, zero uploads
+
+**Stack:** `Electron` `Node.js` `FFmpeg` `Sharp` `pdf-lib` `LibreOffice` `7-Zip`
+
+<p>
+  <a href="https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2">
+    <img src="https://img.shields.io/badge/Repository-111111?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases">
+    <img src="https://img.shields.io/badge/Latest%20Release-111111?style=flat-square&logo=github" />
+  </a>
+</p>
+
+</td>
+<td width="50%" valign="top">
 
 ### 🩺 JIVYYA
+**AI-assisted patient case-taking platform**, born from an SIH problem statement and pushed well past it.
 
-An AI-assisted **patient case-taking software platform** that originated from an SIH problem statement and is being developed further beyond the original scope.
+An NLP-driven system that holds structured, safety-aware clinical conversations — across English, Hindi, *and* Hinglish.
 
-The project focuses on collecting and structuring clinical information through an AI-assisted conversation system.
+`🧠` Named Entity Recognition
+`💬` Conversation state management
+`🌐` Multilingual: EN / HI / Hinglish
+`🚨` Safety escalation flows
+`🧪` Model testing & evaluation
+`🏗️` System architecture from scratch
 
-Areas explored include:
+**Stack:** `Python` `FastAPI` `Transformers` `NLP`
 
-- Natural Language Processing
-- Named Entity Recognition
-- Conversation state management
-- English, Hindi and Hinglish interaction
-- Patient finding management
-- Safety escalation flows
-- Testing and evaluation
-- System architecture
+<br/>
 
----
+> *Started as a hackathon idea. Still growing because the problem was real.*
 
-## 📈 GitHub
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="https://img.shields.io/github/followers/PRIYANSHVERMA-droid?style=for-the-badge&logo=github" alt="GitHub Followers">
-  <img src="https://img.shields.io/github/stars/PRIYANSHVERMA-droid/ConvertHub-v2?style=for-the-badge&logo=github" alt="ConvertHub Stars">
-</p>
+<br/>
 
----
+## 🧠 Tech Radar
 
-## ⚡ What I'm Working On
+<div align="center">
 
-- Improving my Python fundamentals
-- Learning web development
-- Building and improving desktop applications
-- Exploring AI-assisted software development
-- Understanding system architecture through real projects
-- Improving code quality, testing, and debugging practices
+<img src="https://skillicons.dev/icons?i=python,javascript,cpp,html,css,nodejs,electron,git,github,vscode" />
 
----
+</div>
 
-## 📫 Connect
+<br/>
 
-- 🐙 **GitHub:**  
-  https://github.com/PRIYANSHVERMA-droid
+<div align="center">
+<table>
+<tr>
+<td align="center">
 
-- 💼 **LinkedIn:**  
-  https://www.linkedin.com/in/priyansh-verma-82a207372
+**Languages**
+```
+Python    ████████░░  80%
+JS        ███████░░░  70%
+C++       █████░░░░░  50%
+```
 
-- 🌐 **Portfolio:**  
-  https://priyansh-verma.netlify.app/
+</td>
+<td align="center">
 
-- ⚡ **ConvertHub Releases:**  
-  https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases
+**Currently exploring**
+```
+Desktop apps   ⚙️
+Offline AI     🤖
+Automation     🔧
+```
 
----
+</td>
+<td align="center">
 
-<p align="center">
-  <i>Build. Break. Understand. Improve. 🚀</i>
-</p>
+**Learning next**
+```
+System design  🏗️
+Backend depth  🌐
+Clean code     🧹
+```
+
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
+## 📊 The Numbers
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=PRIYANSHVERMA-droid&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=6EE7FF&icon_color=6EE7FF&cache_seconds=7200" />
+
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PRIYANSHVERMA-droid&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=6EE7FF&langs_count=6&cache_seconds=7200" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=PRIYANSHVERMA-droid&theme=tokyonight&hide_border=true&background=0d1117&ring=6EE7FF&fire=6EE7FF" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PRIYANSHVERMA-droid&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6EE7FF&line=6EE7FF&point=ffffff" width="100%"/>
+
+</div>
+
+<br/>
+
+## 🖥️ terminal --now
+
+```bash
+priyansh@dev:~$ status --check
+
+[OK]   Caffeine level ................ sufficient
+[OK]   Editor .......................... VS Code, 40+ tabs open
+[OK]   Current bug ..................... "works on my machine"
+[WARN] Sleep schedule .................. under maintenance
+[OK]   Mood ............................ shipping mode 🚀
+
+priyansh@dev:~$ git log --oneline -3
+a1b2c3d  fix: the fix that broke something else
+e4f5g6h  feat: it actually works now
+h7i8j9k  chore: why did I write this
+
+priyansh@dev:~$ _
+```
+
+<br/>
+
+## 🏆 Trophy Cabinet
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=PRIYANSHVERMA-droid&theme=tokyonight&no-frame=true&no-bg=false&column=7&margin-w=8&margin-h=8" />
+
+</div>
+
+<br/>
+
+## 🎯 How I Actually Learn
+
+<div align="center">
+
+| Stage | What Happens |
+|:---:|:---|
+| 1️⃣ | Find something I don't understand |
+| 2️⃣ | Try to build it anyway |
+| 3️⃣ | Break it in three new ways |
+| 4️⃣ | Read the docs I should've read first |
+| 5️⃣ | Fix it, understand it, ship it |
+| 🔁 | Repeat with something harder |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 💭 "The best way to understand a system is to build one, break it, and rebuild it better."
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,11,20,29&section=footer" width="100%"/>
+
+</div>
