@@ -1,54 +1,65 @@
 # Hi 👋 I'm Priyansh Verma
 
-🚀 Developer focused on building high-performance desktop applications, offline-first utilities, and system automation tools.
+💻 Computer Science student who enjoys building software by turning ideas into working products.
 
-Currently working on:
-- ⚡ High-performance, sandboxed desktop apps
-- ⚙️ Offline-first file processing & media engines
-- 🖥 Modern Electron-based software with premium UX
+I'm currently exploring:
+- 🖥️ Desktop application development with Electron
+- ⚙️ Offline-first utilities and local file processing
+- 🤖 AI-assisted software and practical automation
+- 🌐 Python and modern web development
+- 🎨 Clean and practical user interfaces
+
+I learn primarily by building, testing, debugging, and improving projects.
 
 ---
 
-## 🔥 Featured Project
+## 🚀 Featured Project
 
 ### ⚡ ConvertHub v2
 
-A high-performance, offline-first desktop file converter, visual PDF workspace, and advanced image editor with a modern glassmorphism UI and parallel processing queues. Powered entirely locally by **FFmpeg**, **LibreOffice**, **7-Zip**, and **Sharp**.
+**ConvertHub v2** is an offline-first desktop application that combines a universal file converter, PDF workspace, and image editing toolkit into a single interface.
+
+The application is designed around **local processing**, so users can work with their files without relying on cloud services.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PRIYANSHVERMA-droid/ConvertHub-v2/main/assets/screenshots/UI%20Dark.png" width="850" alt="ConvertHub v2 Preview">
 </p>
 
-#### 🔀 Universal File Converter
-- 🎵 **Audio Studio:** High-fidelity conversion between `MP3`, `WAV`, `AAC`, and `FLAC`.
-- 🎬 **Video Suite:** Rapid conversion of `MP4`, `MKV`, `MOV`, and `AVI` (GPU-accelerated).
-- 🖼 **Image Studio:** Web-optimized conversions for `JPG`, `PNG`, and `WEBP`.
-- 📄 **Document Suite:** Sandboxed offline document conversions powered by LibreOffice.
-- 📦 **Archive Control:** Create high-efficiency compressed packages (`ZIP` & `7Z`) via 7-Zip.
+### 🔀 Universal File Converter
 
-#### 🎨 Smart Image Toolkit
-- 📐 **Resize & Crop Studio:** Scale using aspect-ratio presets (Full HD, HD, Instagram, YouTube) or custom bounds with advanced fit modes (`cover`, `contain` with color fill, `fill`).
-- 🔄 **Transforms & Rotation:** Spin images in 90° increments or flip horizontally and vertically.
-- 📉 **Optimized Compression:** Re-encode images to `JPEG`, `PNG`, `WebP`, or `AVIF` formats with real-time file-size savings estimation.
-- ✍️ **Visual Watermarker:** Overlay image logos or custom text with full styling attributes (custom color picker, opacity, rotation, and gravity/tiling layouts).
-- 🖼 **Live Canvas Preview:** Interactively view edits side-by-side or live on an HTML5 canvas before running any backend processes.
+- 🎵 **Audio:** Convert between `MP3`, `WAV`, `AAC`, and `FLAC`
+- 🎬 **Video:** Convert `MP4`, `MKV`, `MOV`, and `AVI`
+- 🖼️ **Images:** Convert between `JPG`, `PNG`, and `WEBP`
+- 📄 **Documents:** Local document conversion using LibreOffice
+- 📦 **Archives:** Create `ZIP` and `7Z` archives using 7-Zip
 
-#### 📐 Smart PDF Toolkit
-- ✂️ **Visual Organizer:** Drag, rotate, delete, or reorganize PDF pages in an interactive workspace.
-- 🖼 **Image Compiler:** Package custom image lists into a single PDF with layouts and encryption.
-- 🔗 **PDF Merger:** Combine multiple PDF documents or target specific page ranges.
-- 📉 **Smart Compression:** Reduce file size using lossless Flate or lossy DPI re-encoding.
-- ✍️ **Custom Watermarker:** Brand documents with text, placement, opacity, and rotation.
-- 📂 **Visual Page Selection:** Extract specific pages using thumbnail checkbox grids synced dynamically with manual page range inputs.
+### 🎨 Image Toolkit
 
-#### 💎 Key Highlights:
-- ⚡ **100% Offline & Private:** Zero cloud dependencies, keeping files completely secure.
-- ⚡ **Parallel Batch Queue:** Advanced pipeline to manage multiple processing threads seamlessly.
-- ⚡ **GPU Acceleration:** Automatic hardware encoder integration (NVENC / QSV).
-- ⚡ **Stunning Interface:** Premium glassmorphism layout with dynamic Dark / Light themes.
-- ⚡ **Bundled Engines:** Ready to run out of the box with zero external installation required.
+- 📐 Resize and crop images with presets or custom dimensions
+- 🔄 Rotate and flip images
+- 📉 Compress and convert images to `JPEG`, `PNG`, `WebP`, and `AVIF`
+- ✍️ Add text and image watermarks
+- 🖼️ Preview edits through an interactive canvas
 
-🔗 **Repository:** [PRIYANSHVERMA-droid/ConvertHub-v2](https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2)
+### 📐 PDF Toolkit
+
+- ✂️ Reorder, rotate, delete, and organize PDF pages
+- 🔗 Merge multiple PDF files
+- 🖼️ Create PDFs from images
+- 📉 Compress PDF documents
+- ✍️ Add text watermarks
+- 📂 Select and extract specific pages
+
+### 💡 Highlights
+
+- 🔒 **Offline-first:** Files are processed locally
+- ⚡ **Batch processing:** Process multiple files through a queue
+- 🖥️ **Hardware acceleration:** Supports available hardware encoders such as NVENC/QSV
+- 🌙 **Dark & Light themes:** Modern desktop interface
+- 📦 **Bundled tools:** Includes the required processing engines for easier setup
+
+🔗 **Repository:**  
+https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2
 
 <p align="center">
   <a href="https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases">
@@ -58,38 +69,94 @@ A high-performance, offline-first desktop file converter, visual PDF workspace, 
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-- **Languages:** JavaScript, Node.js, C++, Python, HTML/CSS
-- **Frameworks & Engines:** Electron, FFmpeg, LibreOffice, 7-Zip, Sharp, pdf-lib, pdfjs-dist
-- **Focus Areas:** Desktop Shell Engineering, IPC Architecture, Multi-threaded Queues
+### Languages
+- JavaScript
+- Python
+- HTML / CSS
+- Node.js
+
+### Frameworks & Libraries
+- Electron
+- FFmpeg
+- Sharp
+- pdf-lib
+- pdfjs-dist
+- LibreOffice
+- 7-Zip
+
+### Development
+- Git
+- GitHub
+- VS Code
+
+### Areas I'm Exploring
+- Desktop application development
+- IPC and multi-process architecture
+- Local file processing
+- AI-assisted applications
+- Automation and developer tooling
 
 ---
 
-## 📈 GitHub Stats
+## 🧪 Other Work
 
-<!-- OPTION A: Ultra-Reliable Static Badges (100% Uptime Guarantee) -->
-<p align="center">
-  <img src="https://img.shields.io/github/followers/PRIYANSHVERMA-droid?style=for-the-badge&logo=github&color=0078d7" alt="Followers">
-  <img src="https://img.shields.io/github/stars/PRIYANSHVERMA-droid/ConvertHub-v2?style=for-the-badge&logo=github&color=emerald" alt="ConvertHub v2 Stars">
-</p>
+### 🩺 JIVYYA
 
-<!-- OPTION B: Dynamic Stats -->
+An AI-assisted **patient case-taking software platform** that originated from an SIH problem statement and is being developed further beyond the original scope.
+
+The project focuses on collecting and structuring clinical information through an AI-assisted conversation system.
+
+Areas explored include:
+
+- Natural Language Processing
+- Named Entity Recognition
+- Conversation state management
+- English, Hindi and Hinglish interaction
+- Patient finding management
+- Safety escalation flows
+- Testing and evaluation
+- System architecture
+
+---
+
+## 📈 GitHub
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PRIYANSHVERMA-droid&theme=tokyonight" alt="GitHub Streak Stats">
+  <img src="https://img.shields.io/github/followers/PRIYANSHVERMA-droid?style=for-the-badge&logo=github" alt="GitHub Followers">
+  <img src="https://img.shields.io/github/stars/PRIYANSHVERMA-droid/ConvertHub-v2?style=for-the-badge&logo=github" alt="ConvertHub Stars">
 </p>
 
 ---
 
-## ⚡ Current Focus
+## ⚡ What I'm Working On
 
-- Improving performance and security of offline-first desktop applications
-- Optimizing sandboxed multi-process rendering systems in Electron
-- Designing visual interfaces that make complex terminal tools accessible
+- Improving my Python fundamentals
+- Learning web development
+- Building and improving desktop applications
+- Exploring AI-assisted software development
+- Understanding system architecture through real projects
+- Improving code quality, testing, and debugging practices
 
 ---
 
 ## 📫 Connect
 
-- **GitHub:** [@PRIYANSHVERMA-droid](https://github.com/PRIYANSHVERMA-droid)
-- **ConvertHub Releases:** [Get the App](https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases)
+- 🐙 **GitHub:**  
+  https://github.com/PRIYANSHVERMA-droid
+
+- 💼 **LinkedIn:**  
+  https://www.linkedin.com/in/priyansh-verma-82a207372
+
+- 🌐 **Portfolio:**  
+  https://priyansh-verma.netlify.app/
+
+- ⚡ **ConvertHub Releases:**  
+  https://github.com/PRIYANSHVERMA-droid/ConvertHub-v2/releases
+
+---
+
+<p align="center">
+  <i>Build. Break. Understand. Improve. 🚀</i>
+</p>
